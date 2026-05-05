@@ -50,15 +50,29 @@ List the major features or capabilities of the project in bullet form. For examp
 
 The system uses content-based filtering with TF-IDF and cosine similarity to recommend restaurants based on user preferences such as:
 
-City
-Cuisine
-Price range
-Rating
-Dietary needs
+City,Cuisine,Price range,Rating,Dietary needs
 
 It computes similarity between restaurants and returns the most relevant matches ranked by similarity + rating, enabling accurate and personalized suggestions 
-- **Feature B:** Brief description of feature B (e.g. “Real-time data processing with `<TECHNOLOGY>`”).  
-- **Feature C:** Brief description of feature C.  
+- **Feature B:** Brief description of feature B : Restaurant Rating Prediction (Machine Learning)
+
+A Random Forest Regressor is used to predict the expected rating of a restaurant using structured features like:
+
+City,Price range,Cost,Votes
+
+This allows the system to estimate restaurant quality even before user reviews, helping in better ranking and insights.  
+- **Feature C:Cuisine Classification System
+
+The project includes a multi-class classification model that predicts the primary cuisine type of a restaurant.
+
+Uses Random Forest Classifier
+Applies OneHotEncoding for categorical features
+Focuses on top cuisine categories for better accuracy
+
+This helps in:
+
+Organizing restaurants
+Improving search & filtering
+Supporting recommendation logic
 
 Include as many bullet points as needed to highlight the value proposition. Where appropriate, mention any unique selling points or advantages. This reinforces the **purpose and functionality** of the project that you introduced above (a README should describe the project’s purpose and features【2】). You can also link to documentation or demos of key features here.  
 
