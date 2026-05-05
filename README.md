@@ -10,7 +10,8 @@ The application serves three primary purposes:
 Predict restaurant ratings
 Classify restaurant cuisines
 Recommend restaurants based on user preferences
-📊 Dataset Understanding
+
+Dataset Understanding
 
 The system operates on a dataset containing 9,500+ restaurant records with 21 features, including:
 
