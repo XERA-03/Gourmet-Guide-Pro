@@ -60,7 +60,7 @@ A Random Forest Regressor is used to predict the expected rating of a restaurant
 City,Price range,Cost,Votes
 
 This allows the system to estimate restaurant quality even before user reviews, helping in better ranking and insights.  
-- **Feature C:Cuisine Classification System
+- **Feature C:** Cuisine Classification System
 
 The project includes a multi-class classification model that predicts the primary cuisine type of a restaurant.
 
