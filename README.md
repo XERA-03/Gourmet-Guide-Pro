@@ -79,10 +79,29 @@ Include as many bullet points as needed to highlight the value proposition. Wher
 ## Prerequisites  
 Specify what is required on the host system before installation. This typically includes:  
 
-- **Programming Language/Runtime:** e.g. `<LANGUAGE> >= <VERSION>` (for example, Python 3.11, Node.js 20.x, Java 17).  
-- **Dependencies:** Any global tools or libraries, such as `<DATABASE>`, `<MESSAGE_QUEUE>`, or framework CLIs.  
-- **System Requirements:** Operating system, memory, disk space, etc. (for instance, “Docker Desktop installed” or “A recent browser” as needed).  
-- **Git:** (if you’re distributing via Git, e.g. “Git must be installed on the local machine”).  
+- **Programming Language/Runtime:** •Python ≥ 3.9 (Recommended: Python 3.10 or 3.11)
+•Package manager: pip (latest version)
+- **Dependencies:** Core Libraries:
+Streamlit (1.35.0) → Web application framework
+Pandas (2.2.2) → Data processing & analysis
+NumPy (1.26.4) → Numerical computations
+Scikit-learn (1.4.2) → Machine learning models
+
+👉 From your file:
+
+Internal Modules Used:
+TF-IDF Vectorizer
+Cosine Similarity
+Random Forest (Classifier + Regressor) 
+- **System Requirements:** Minimum:
+OS: Windows / Linux / macOS
+RAM: 4 GB (8 GB recommended)
+Storage: At least 500 MB free space
+CPU: Any modern processor
+Recommended:
+RAM: 8 GB+ for smooth ML operations
+SSD for faster dataset loading  
+- **Git:** Git must be installed to clone the repository:git clone https://github.com/<your-username>/<repo-name>.git  
 - **Other:** Any external services or accounts (e.g. AWS account, database credentials).  
 
 For example, Docker’s own documentation lists as prerequisites “install the latest version of Docker Desktop” and “install a Git client”【3】. Be explicit. You can reference placeholders like `<DB_HOST>`, `<API_KEY>`, or `<ENV_VAR>` in this list to indicate that the user will need to provide those values.  
