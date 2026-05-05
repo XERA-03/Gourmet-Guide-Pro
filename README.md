@@ -31,8 +31,7 @@ Majority of restaurants in budget to mid-range pricing
 
 These characteristics required preprocessing, feature engineering, and simplification (e.g., extracting primary cuisine).
 
-⚙️ Core Functional Modules
-1️⃣ Data Analysis & Preprocessing
+⚙️ Core Functional Modules - Data Analysis & Preprocessing
 
 The project begins with Exploratory Data Analysis (EDA) to understand distributions, missing values, and feature relationships.
 
