@@ -1,7 +1,47 @@
 # `Gourmet-Guide-Pro`
 
 ## Project Description  
-This section provides a more detailed overview of the project’s scope and context. Describe the background or problem domain, the project’s objectives, and how it works at a high level. For example: “`<PROJECT_NAME>` aims to solve `<PROBLEM>` by providing `<SOLUTION_DESCRIPTION>`. It consists of a `<COMPONENTS_OVERVIEW>` that interact to deliver `<END_RESULTS>`. This project is intended for `<TARGET_AUDIENCE>` and can be adapted for `<USE_CASES_OR_PLATFORMS>`.”  Mention the project’s architecture style (e.g. web app, API, library, microservices) and any key technologies or frameworks used. A README should clearly outline the project’s purpose and core features【2】, so use this section to paint a clear picture of what your project does and why it matters.  
+The Restaurant Recommendation System is an end-to-end machine learning application designed to analyze restaurant data and deliver intelligent, personalized dining recommendations. The system integrates data analytics, predictive modeling, and content-based filtering into a unified pipeline, enabling users to discover restaurants based on preferences such as cuisine, location, price range, and ratings.
+
+This project is implemented using Python, Scikit-learn, Pandas, and Streamlit, and demonstrates how structured data can be transformed into actionable insights and real-time recommendations.
+
+The application serves three primary purposes:
+
+Predict restaurant ratings
+Classify restaurant cuisines
+Recommend restaurants based on user preferences
+📊 Dataset Understanding
+
+The system operates on a dataset containing 9,500+ restaurant records with 21 features, including:
+
+Restaurant Name
+City
+Cuisines
+Price Range (1–4 scale)
+Average Cost for Two
+Aggregate Rating (0–5)
+Votes (user engagement)
+
+The dataset exhibits:
+
+High categorical diversity (cities, cuisines)
+Strong class imbalance in cuisine distribution
+Significant number of unrated restaurants (~22%)
+Majority of restaurants in budget to mid-range pricing
+
+These characteristics required preprocessing, feature engineering, and simplification (e.g., extracting primary cuisine).
+
+⚙️ Core Functional Modules
+1️⃣ Data Analysis & Preprocessing
+
+The project begins with Exploratory Data Analysis (EDA) to understand distributions, missing values, and feature relationships.
+
+Key steps:
+
+Removal of null values
+Normalization of cuisine text
+Feature extraction (e.g., cuisine count, city popularity)
+Splitting multi-cuisine entries into structured lists
 
 ## Key Features  
 List the major features or capabilities of the project in bullet form. For example:  
