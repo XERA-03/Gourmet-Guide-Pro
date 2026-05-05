@@ -314,7 +314,7 @@ GitHub recommends including a **`CONTRIBUTING.md`** file to communicate contribu
 State the project’s license in this section. For example:  
 
 ```
-MIT License © <YEAR> <Owner Name>
+MIT License © 2025 Satya Ranjan Jena
 ```
 
 Or another license of your choice (Apache-2.0, GPL-3.0, etc.). Place a `LICENSE` file at the repo root and link to it. GitHub will automatically display it. You can include a short summary (e.g. “This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.”). Including a license is important so users know the terms of use; it complements the README, as GitHub advises that a license file “communicates expectations for your project”【14】. 
