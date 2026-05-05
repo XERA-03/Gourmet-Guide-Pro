@@ -87,7 +87,7 @@ Pandas (2.2.2) → Data processing & analysis
 NumPy (1.26.4) → Numerical computations
 Scikit-learn (1.4.2) → Machine learning models
 
-👉 From your file:
+👉 From file:
 
 Internal Modules Used:
 TF-IDF Vectorizer
