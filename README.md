@@ -46,7 +46,17 @@ Splitting multi-cuisine entries into structured lists
 ## Key Features  
 List the major features or capabilities of the project in bullet form. For example:  
 
-- **Feature A:** Brief description of feature A (e.g. “User authentication via OAuth2”).  
+- **Feature A:** AI-Powered Restaurant Recommendation System
+
+The system uses content-based filtering with TF-IDF and cosine similarity to recommend restaurants based on user preferences such as:
+
+City
+Cuisine
+Price range
+Rating
+Dietary needs
+
+It computes similarity between restaurants and returns the most relevant matches ranked by similarity + rating, enabling accurate and personalized suggestions 
 - **Feature B:** Brief description of feature B (e.g. “Real-time data processing with `<TECHNOLOGY>`”).  
 - **Feature C:** Brief description of feature C.  
 
